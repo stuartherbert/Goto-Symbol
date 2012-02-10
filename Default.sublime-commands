@@ -1,0 +1,6 @@
+[
+    {
+        "caption": "Goto Symbol : List symbols",
+        "command": "goto_symbol"
+    }
+]

@@ -1,0 +1,22 @@
+{
+    "goto_symbol_regexp":
+    {
+        "PHP":
+        [
+            "^[\\s\\t\\w]*(class|function)\\s\\w+"
+        ],
+        "Python":
+        [
+            "^[\\s\\t]*(class|def)\\s\\w+"
+        ],
+        "JavaScript":
+        [
+            "^[\\s\\t]*(class|function)\\s\\w+",
+            "^[\\s\\t]*[\\w\\s:=\\.]+(new class|function).+"
+        ],
+        "ShellScript":
+        [
+            "^[\\s\\t]*function\\s\\w+"
+        ]
+    }
+}
