@@ -66,7 +66,6 @@ class SymbolList(UserList.UserList):
     def append_view(self, view):
         self.clear_view(view)
         tmLanguage = view.settings().get('syntax').split('/')[1]
-        print tmLanguage
         rxs = view.settings().get('goto_symbol_regexp').get(tmLanguage)
         if rxs:
             for rx in rxs:
