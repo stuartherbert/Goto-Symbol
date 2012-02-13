@@ -1,6 +1,7 @@
 [
     {
         "caption": "Goto Symbol : List symbols",
-        "command": "goto_symbol"
+        "command": "goto_symbol", 
+        "args": { "action": "list_all" }
     }
 ]
