@@ -20,6 +20,10 @@ Using
  * Use ctrl+shift+r (command on OSX) to list the existing symbols into yours open files.
  * While your cursor is on a word, use alt+click to jump to the relative symbol's definition of the word.
 
+Notes
+-----
+ * Sometimes, system do not allow using of alt+click, u'll need to remap the key binding to another one.
+
 Installation
 ------------
 
