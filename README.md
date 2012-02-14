@@ -1,7 +1,7 @@
 Sublime Text 2 plugin: Goto Symbol
 ==================================
 
-This pulgin add a command to Sublime Text 2, allowing you to jump between the symbol of yours open files.
+This plugin adds a command to Sublime Text 2, allowing you to jump between the symbol of your open files.
 
 Supports
 --------
@@ -12,17 +12,18 @@ Supports
  * Shell script
  * ... (languages' regexp are customizable via the settings file)
 
-Submit a patch adding more and i'll include it.
+Submit a patch adding more and I'll include it.
 
 Using
 -----
 
- * Use ctrl+shift+r (command on OSX) to list the existing symbols into yours open files.
+ * Use ctrl+shift+r (command on OSX) to list the existing symbols in your open files.
  * While your cursor is on a word, use alt+click to jump to the relative symbol's definition of the word.
 
 Notes
 -----
- * Sometimes, system do not allow using of alt+click, u'll need to remap the key binding to another one.
+ * Sometimes, system does not allow using of alt+click, you'll need to remap the key binding to another one.
+ * After the installation, you'll need to restart Sublime Text 2.
 
 Installation
 ------------
