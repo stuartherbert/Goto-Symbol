@@ -3,7 +3,9 @@
     {
         "PHP":
         [
-            "^[\\s\\t\\w]*(class|function)\\s\\w+"
+            "^[\\s\\t\\w]*(class|function|trait|interface|const|var)\\s\\w+",
+            "^[\\s\\t\\w]*(public|protected|private)\\s\\$\\w+",
+	    "^[\\s\\t\\w]*static\\s\\$\\w+"
         ],
         "Python":
         [
